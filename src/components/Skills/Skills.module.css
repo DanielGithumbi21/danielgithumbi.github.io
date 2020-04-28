@@ -1,0 +1,12 @@
+.container{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.heading{
+    text-align: center;
+    padding-bottom: 10px;
+}
