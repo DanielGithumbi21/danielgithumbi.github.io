@@ -2,11 +2,12 @@ import React from "react";
 import styles from './Navbar.module.css';
 import { Link } from 'react-router-dom';
 
+
 const Navbar = () => {
   return (
     <div className={styles.container}>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className={styles.brand} href="#">DANIEL GITHUMBI</a>
+        <h4 className={styles.brand}>DANIEL GITHUMBI</h4>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -32,5 +33,8 @@ const Navbar = () => {
       </nav>
     </div>
   );
+
 };
 export default Navbar;
+
+

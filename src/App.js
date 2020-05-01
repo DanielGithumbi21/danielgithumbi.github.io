@@ -1,8 +1,8 @@
 import React from "react";
+import Home from './components/Home/Home';
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Navbar from "./components/Navbar/Navbar";
-import Home from "./components/Home/Home";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -18,7 +18,6 @@ const App = () => {
     <Router>
       <div>
         <Navbar />
-        <br />
         <Route path='/' exact component={Home} />
         <Route path='/about' component={About} />
         <Route path='/skills' component={Skills} />

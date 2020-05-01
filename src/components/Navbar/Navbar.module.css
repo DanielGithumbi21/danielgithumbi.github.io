@@ -1,13 +1,9 @@
-.container{
-    height: 40px;
-    text-align: right;
-}
 
 .container ul {
     margin-left: 50%;
     padding-bottom: 10px;
 }
-.container ul li{
+ .container ul li{
     font-size: 15px;
     font-weight: bold;
     text-decoration: underline;
@@ -15,7 +11,7 @@
     padding:10px;
 }
 
-.brand{
+ .brand{
     font-size: 20px;
     color: midnightblue;
     font-weight: bold;

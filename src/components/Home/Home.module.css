@@ -1,18 +1,29 @@
-.container {padding:0.1em}	
-
-.display{
-  position: relative;
-  width: 100%;
+.link{
+    padding: 10px;
+    font-size: 30px;
+    color: white;
 }
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    background-color: moccasin;
+    border-style: dashed;
 
-.middle {
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  color: white;
 }
-
-img {width: 100%;}
+.email{
+    white-space: nowrap;
+    margin-left: 10%;
+    padding-bottom: 30px;
+}
+.icon a{
+    font-size: 30px;
+    padding: 10px;
+    color: black;
+}
+.container h2{
+    text-align: center;
+    color: blue;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}

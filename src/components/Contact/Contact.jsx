@@ -11,8 +11,8 @@ const Contact = () => {
 
         <p>Phone:<p>0797247756</p></p>
         <div className={styles.icon}>
-          <a href="#"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
-          <a href="#"><FontAwesomeIcon icon={['fab', 'github']} /></a>
+          <a href="https://www.linkedin.com/in/daniel-githumbi-55116a1a0"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
+          <a href="https://github.com/DanielGithumbi21"><FontAwesomeIcon icon={['fab', 'github']} /></a>
         </div>
       </div>
     </div>

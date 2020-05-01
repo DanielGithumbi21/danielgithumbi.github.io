@@ -3,5 +3,25 @@
     margin-left: 5%;
     margin-right: 5%;
     background-color: lightgray;
-    white-space: nowrap;
+    padding: 0;
+}
+.container h2{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+
+}
+.container p{
+    margin-top: 7%;
+    margin-left: 5%;
+}
+.container img{
+    margin-left:2%;
+}
+.container h5{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5%;
+    
 }
